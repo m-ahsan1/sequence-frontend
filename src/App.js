@@ -7,31 +7,23 @@ import Lobby from './screens/Lobby'
 import './style.css'
 import Onboarding from './screens/Onboarding'
 import { Route, Router,Routes } from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
+import Game from './screens/Game'
 
 const App = () => {
 
 
   return (
-    <div className='main'>
+    <div className='App'>
 
-    <Router>
-        <Onboarding />
-        <Routes>
-            <Route path='/about' element={<Lobby/>} />
-        </Routes>
-        </Router>
-      {/* <div className="grid">
-        <Grid />
-      </div>
+      <Routes>
+        <Route path='/' element={<Onboarding />}/>
+        <Route path='/game' element={<Game />}/>
 
-      <div className="sidebar">
-        <Teams />
-        <Scores />
-        <YourDeck />
-      </div> */}
+      </Routes>
 
     </div>
+
   )
 }
 

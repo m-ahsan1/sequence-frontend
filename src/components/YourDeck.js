@@ -28,7 +28,8 @@ const YourDeck = () => {
 
 
   return (
-    <div className='deck'>
+    <div className='gamedeck'>
+      <span>Your Cards</span>
       {deck}
     </div>
   )
