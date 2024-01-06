@@ -7,7 +7,7 @@ const Onboarding = () => {
 
   return (
     <div className="bg-orange-500 flex justify-center items-center h-screen">
-      <div className="bg-white rounded-lg h-[400px] w-[260px] md:h-[500px] md:w-[500px] shadow-md">
+      <div className="bg-white rounded-lg w-[260px] md:h-[500px] md:w-[500px] shadow-md">
         <h1 className="font-body text-4xl text-center mt-5">
           Welcome to Sequence Online Game
           {team}
@@ -26,31 +26,33 @@ const Onboarding = () => {
           <label className="font-bold my-4" htmlFor="name">
             Team
           </label>
-          <div className="mx-auto flex gap-5">
+          <div className="mx-auto flex gap-2 md:gap-5">
             <button
-              className="bg-red-400  h-[32px] w-[70px] rounded-md shadow-sm hover:scale-105 duration-200"
+              className="bg-red-400 h-[26px] w-[50px] md:h-[32px] md:w-[70px] rounded-md shadow-sm hover:scale-105 duration-200"
               onClick={() => setTeam("red")}
             >
               Red
             </button>
             <button
-              className="bg-blue-400 h-[32px] w-[70px] rounded-md shadow-sm hover:scale-105 duration-200"
+              className="bg-blue-400 h-[26px] w-[50px] md:h-[32px] md:w-[70px] rounded-md shadow-sm hover:scale-105 duration-200"
               onClick={() => setTeam("blue")}
             >
               Blue
             </button>
             <button
-              className="bg-green-400 h-[32px] w-[70px] rounded-md shadow-sm hover:scale-105 duration-200"
+              className="bg-green-400 h-[26px] w-[50px] md:h-[32px] md:w-[70px] rounded-md shadow-sm hover:scale-105 duration-200"
               onClick={() => setTeam("green")}
             >
               Green
             </button>
           </div>
-          <Link to="/game">
-            <button className="border-2 h-[35px] w-[100px] rounded-lg shadow-sm my-10 mx-auto hover:scale-105">
-              Play
-            </button>
-          </Link>
+          <div className="flex justify-center items-center">
+            <Link to="/sequence-frontend/game">
+              <button className="border-2 h-[35px] w-[100px] rounded-lg shadow-sm my-10 mx-auto hover:scale-105">
+                Play
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
