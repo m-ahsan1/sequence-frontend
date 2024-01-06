@@ -1,48 +1,30 @@
-import React from 'react'
-import { Hand } from 'react-deck-o-cards';
-import CardData from '../CardData';
-
+import React, { useState, useEffect } from "react";
+import { data } from "../CardData.js";
 
 const Grid = () => {
+  const [cards, setCards] = useState([]);
 
-  const defHandStyle = {
-    position: 'relative',
-    display: 'inline-block',
-    marginRight: '8px',
-    maxHeight:'9vh',
-    minHeight:'9vh',
+  useEffect(() => {
+    setCards(data.cards);
+  }, []);
 
-    // maxWidth:'100vw',
-    padding: 0,
+  const handleCardClick = (id) => {
+    console.log("Card Clicked!");
   };
-  const handleCardClick = (cards) => {
-    console.log(`Clicked on card: ${cards.rank} of ${cards.suit}`);
-    // Do something with the clicked card data
-  }
-  const cards = CardData.data.cards;
-  const rows = [];
-
-  for (let i = 0; i < 10; i++) {
-    const columns = [];
-
-    for (let j = 0; j < 10; j++) {
-      const index = i * 10 + j;
-
-      if (index < cards.length) {
-        columns.push(
-          <Hand key={index} cards={[cards[index]]} hidden={false} style={defHandStyle} />
-        );
-      } else {
-        // If index is outside the bounds of the cards array, push an empty div
-        columns.push(<div key={index}></div>);
-      }
-    }
-    rows.push(<div key={i}>{columns}</div>);
-  }
 
   return (
-    <div className='grid'>{rows}</div>
-  )
-}
+    <div className="grid grid-cols-10">
+      {cards.map((card) => (
+        <img
+          className="h-[50px] w-[30px] md:h-[67px] md:w-[55px] m-[2px]  hover:scale-105 duration-200 shadow-sm"
+          id={card.id}
+          src={card.src}
+          alt="cards"
+          onClick={() => handleCardClick(card.id)}
+        />
+      ))}
+    </div>
+  );
+};
 
-export default Grid
+export default Grid;

@@ -1,29 +1,21 @@
-import React from 'react'
-import Grid from '../components/Grid'
-import Scores from '../components/Scores'
-import Teams from '../components/Teams'
-import YourDeck from '../components/YourDeck'
-
+import React from "react";
+import Grid from "../components/Grid";
+import Teams from "../components/Teams";
+import YourDeck from "../components/YourDeck";
 
 const Game = () => {
   return (
-    <div className='main'>
-
-
-      <div className="grid">
+    <div className="flex flex-col md:flex-row bg-orange-300 gap-6">
+      <div className="flex-grow">
         <Grid />
       </div>
 
-      <div className="sidebar">
+      <div className="flex-glow mx-6">
         <Teams />
-        <Scores />
-        <YourDeck/>
-
-
+        <YourDeck />
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Game
+export default Game;

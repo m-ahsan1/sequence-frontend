@@ -1,444 +1,105 @@
-export default
-{
-  "data" : {
-    "cards" : [
-      {
-        "rank" : 1,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      },
-      {
-        "rank" : 2,
-        "suit" : 1
-      },
-      {
-        "rank" : 3,
-        "suit" : 1
-      },
-      {
-        "rank" : 4,
-        "suit" : 1
-      },
-      {
-        "rank" : 5,
-        "suit" : 1
-      },
-      {
-        "rank" : 6,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 7,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 8,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 9,
-        "suit" : 1
-      }
-      ,
-      {
-        "rank" : 10,
-        "suit" : 1
-      },
-      {
-        "rank" : 11,
-        "suit" : 1
-      },
-      {
-        "rank" : 12,
-        "suit" : 1
-      }
+import twoS from "./cards/2S.svg";
+import threeS from "./cards/3S.svg";
+import fS from "./cards/4S.svg";
+import fiveS from "./cards/5S.svg";
+import SS from "./cards/6S.svg";
+import sevenS from "./cards/7S.svg";
+import ES from "./cards/8S.svg";
+import NS from "./cards/9S.svg";
 
-    ]
-  }
-}
+import SC from "./cards/6C.svg";
+
+export const data = {
+  cards: [
+    { id: 1, src: twoS, selected: false },
+    { id: 2, src: threeS, selected: false },
+    { id: 3, src: fS, selected: false },
+    { id: 4, src: fiveS, selected: false },
+    { id: 5, src: SS, selected: false },
+    { id: 6, src: sevenS, selected: false },
+    { id: 7, src: ES, selected: false },
+    { id: 8, src: NS, selected: false },
+    { id: 9, src: SC, selected: false },
+    { id: 10, src: SC, selected: false },
+    { id: 11, src: twoS },
+    { id: 12, src: threeS },
+    { id: 13, src: fS },
+    { id: 14, src: fiveS },
+    { id: 15, src: SS },
+    { id: 16, src: sevenS },
+    { id: 17, src: ES },
+    { id: 18, src: NS },
+    { id: 19, src: SC },
+    { id: 20, src: SC },
+    { id: 21, src: twoS },
+    { id: 22, src: threeS },
+    { id: 23, src: fS },
+    { id: 24, src: fiveS },
+    { id: 25, src: SS },
+    { id: 26, src: sevenS },
+    { id: 27, src: ES },
+    { id: 28, src: NS },
+    { id: 29, src: SC },
+    { id: 30, src: SC },
+    { id: 31, src: twoS },
+    { id: 32, src: threeS },
+    { id: 33, src: fS },
+    { id: 34, src: fiveS },
+    { id: 35, src: SS },
+    { id: 36, src: sevenS },
+    { id: 37, src: ES },
+    { id: 38, src: NS },
+    { id: 39, src: SC },
+    { id: 40, src: SC },
+    { id: 41, src: twoS },
+    { id: 42, src: threeS },
+    { id: 43, src: fS },
+    { id: 44, src: fiveS },
+    { id: 45, src: SS },
+    { id: 46, src: sevenS },
+    { id: 47, src: ES },
+    { id: 48, src: NS },
+    { id: 49, src: SC },
+    { id: 50, src: SC },
+    { id: 51, src: twoS },
+    { id: 52, src: threeS },
+    { id: 53, src: fS },
+    { id: 54, src: fiveS },
+    { id: 55, src: SS },
+    { id: 56, src: sevenS },
+    { id: 57, src: ES },
+    { id: 58, src: NS },
+    { id: 59, src: SC },
+    { id: 60, src: SC },
+    { id: 61, src: twoS },
+    { id: 62, src: threeS },
+    { id: 63, src: fS },
+    { id: 64, src: fiveS },
+    { id: 65, src: SS },
+    { id: 66, src: sevenS },
+    { id: 67, src: ES },
+    { id: 68, src: NS },
+    { id: 69, src: SC },
+    { id: 70, src: SC },
+    { id: 71, src: twoS },
+    { id: 82, src: threeS },
+    { id: 83, src: fS },
+    { id: 84, src: fiveS },
+    { id: 85, src: SS },
+    { id: 86, src: sevenS },
+    { id: 87, src: ES },
+    { id: 88, src: NS },
+    { id: 89, src: SC },
+    { id: 90, src: SC },
+    { id: 91, src: twoS, selected: false },
+    { id: 92, src: threeS, selected: false },
+    { id: 93, src: fS, selected: false },
+    { id: 94, src: fiveS, selected: false },
+    { id: 95, src: SS, selected: false },
+    { id: 96, src: sevenS, selected: false },
+    { id: 97, src: ES, selected: false },
+    { id: 98, src: NS, selected: false },
+    { id: 99, src: SC, selected: false },
+    { id: 100, src: SC, selected: false },
+  ],
+};
