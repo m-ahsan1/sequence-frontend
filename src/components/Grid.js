@@ -16,7 +16,7 @@ const Grid = () => {
     <div className="grid grid-cols-10">
       {cards.map((card) => (
         <img
-          className="h-[50px] w-[30px] md:h-[67px] md:w-[55px] m-[2px]  hover:scale-105 duration-200 shadow-sm"
+          className="h-[50px] w-[30px] md:h-[70px] md:w-[50px] lg:h-[99px] lg:w-[80px] m-[2px] lg:m-[4px]  hover:scale-105 duration-200 shadow-sm"
           id={card.id}
           src={card.src}
           alt="cards"

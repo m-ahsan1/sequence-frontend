@@ -6,7 +6,7 @@ import Game from "./screens/Game";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="h-screen w-full">
       <Routes>
         <Route path="/" element={<Onboarding />} />
         <Route path="/game" element={<Game />} />
