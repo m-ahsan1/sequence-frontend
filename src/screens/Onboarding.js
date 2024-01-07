@@ -47,7 +47,7 @@ const Onboarding = () => {
             </button>
           </div>
           <div className="flex justify-center items-center">
-            <Link to="/sequence-frontend/game">
+            <Link to="/game">
               <button className="border-2 h-[35px] w-[100px] rounded-lg shadow-sm my-10 mx-auto hover:scale-105">
                 Play
               </button>
