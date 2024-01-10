@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sequence-frontend/static/css/main.fd6e84a5.css",
-    "main.js": "/sequence-frontend/static/js/main.cc66a43f.js",
+    "main.css": "/sequence-frontend/static/css/main.31c335e0.css",
+    "main.js": "/sequence-frontend/static/js/main.b59c4423.js",
     "static/media/9S.svg": "/sequence-frontend/static/media/9S.64be9feb92497201a8419d5e1a434456.svg",
     "static/media/8S.svg": "/sequence-frontend/static/media/8S.5845406b00a5ba62c0bb92b3f65cdcf6.svg",
     "static/media/6C.svg": "/sequence-frontend/static/media/6C.e91086e2b98bb4f833d67b1b774d118b.svg",
@@ -12,11 +12,11 @@
     "static/media/3S.svg": "/sequence-frontend/static/media/3S.0d0c266cb75d93760432ae2335830723.svg",
     "static/media/2S.svg": "/sequence-frontend/static/media/2S.aeed470cef74d41ad9866ef100a19b5d.svg",
     "index.html": "/sequence-frontend/index.html",
-    "main.fd6e84a5.css.map": "/sequence-frontend/static/css/main.fd6e84a5.css.map",
-    "main.cc66a43f.js.map": "/sequence-frontend/static/js/main.cc66a43f.js.map"
+    "main.31c335e0.css.map": "/sequence-frontend/static/css/main.31c335e0.css.map",
+    "main.b59c4423.js.map": "/sequence-frontend/static/js/main.b59c4423.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd6e84a5.css",
-    "static/js/main.cc66a43f.js"
+    "static/css/main.31c335e0.css",
+    "static/js/main.b59c4423.js"
   ]
 }
